@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block nav %}
+{% endblock %}
+
+{% block content %}
+    <h1 style="text-align: center">Poll<i class="bi bi-bookmark-check"></i></h1>
+    <div class="row">
+        {% for poll in polls %}
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" style="font-weight: bold">
+                 <h2><a href="#" style="text-decoration: none">{{ poll.question }}</a></h2>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+    </div>
+{% endblock %}
