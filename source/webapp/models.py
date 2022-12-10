@@ -11,3 +11,10 @@ class Poll(models.Model):
 class Choice(models.Model):
     variant = models.TextField(max_length=30, verbose_name='Текст варианта')
     poll = models.ForeignKey('webapp.Poll', on_delete=models.CASCADE, related_name='polls')
+
+
+class Answer(models.Model):
+    question = models.ForeignKey('webapp.Poll', on_delete=models.CASCADE, related_name='questions')
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата начала")
+    variant = models.ForeignKey('webapp.Choice', on_delete=models.CASCADE, related_name='variants')
+

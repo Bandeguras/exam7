@@ -11,6 +11,8 @@
             <div class="ms-auto">
                 <a href="{% url 'poll_update' poll.pk %}"class= "btn btn-primary "><i class="bi bi-pencil mx-2" style="font-size:25px"></i></a>
                 <a href="{% url 'poll_delete' poll.pk %}"class= "btn btn-primary "><i class="bi bi-trash mx-2" style="font-size:25px"></i></a>
+                <a href="{% url 'answer_add' poll.pk %}"class= "btn btn-primary "><i class="bi bi-chat mx-2" style="font-size:25px"></i></a>
+
             </div>
         </div>
         <p>Created-At: {{ poll.created_at }}</p>
