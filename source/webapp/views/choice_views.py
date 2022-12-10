@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404
 from django.urls import reverse
 from webapp.form import ChoiceForm
 from webapp.models import Choice, Poll
-from django.views.generic import CreateView, UpdateView
+from django.views.generic import CreateView, UpdateView, DeleteView
 # Create your views here.
 
 
@@ -25,6 +25,15 @@ class ChoiceUpdate(UpdateView):
     context_object_name = 'choices'
     model = Choice
     form_class = ChoiceForm
+
+    def get_success_url(self):
+        return reverse('poll', kwargs={'pk': self.object.poll.pk})
+
+
+class ChoiceDelete(DeleteView):
+    model = Choice
+    template_name = 'choice/choice_delete.html'
+    context_object_name = 'choices'
 
     def get_success_url(self):
         return reverse('poll', kwargs={'pk': self.object.poll.pk})

@@ -23,7 +23,7 @@
                     <h2>{{ choice.variant }}</h2>
                        <div class="ms-auto">
                              <a href="{% url 'choice_update' choice.pk %}"class= "btn btn-primary "><i class="bi bi-pencil mx-2" style="font-size:25px"></i></a>
-                             <a href="#"class= "btn btn-primary "><i class="bi bi-trash mx-2" style="font-size:25px"></i></a>
+                             <a href="{% url 'choice_delete' choice.pk %}"class= "btn btn-primary "><i class="bi bi-trash mx-2" style="font-size:25px"></i></a>
                        </div>
                   </div>
                 </div>
