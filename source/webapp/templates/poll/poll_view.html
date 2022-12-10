@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block nav %}
+
+{% endblock %}
+{% block content %}
+    <div style="font-weight: bold " class="border border-4 border-dark p-4">
+        <div class="d-flex">
+        <h1>Question: {{ poll.question }}</h1>
+            <div class="ms-auto">
+                <a href="#"class= "btn btn-primary "><i class="bi bi-pencil mx-2" style="font-size:25px"></i></a>
+                <a href="#"class= "btn btn-primary "><i class="bi bi-trash mx-2" style="font-size:25px"></i></a>
+            </div>
+        </div>
+        <p>Created-At: {{ poll.created_at }}</p>
+    </div>
+{% endblock %}
