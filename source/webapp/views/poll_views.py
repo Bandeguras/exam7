@@ -11,6 +11,7 @@ class PollIndex(ListView):
     context_object_name = 'polls'
     model = Poll
     ordering = '-created_at'
+    paginate_by = 3
 
 
 class PollView(DetailView):
