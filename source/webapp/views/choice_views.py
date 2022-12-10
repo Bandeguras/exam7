@@ -19,3 +19,12 @@ class ChoiceCreate(CreateView):
         form.instance.poll = poll
         return super().form_valid(form)
 
+
+class ChoiceUpdate(UpdateView):
+    template_name = 'choice/choice_update.html'
+    context_object_name = 'choices'
+    model = Choice
+    form_class = ChoiceForm
+
+    def get_success_url(self):
+        return reverse('poll', kwargs={'pk': self.object.poll.pk})
