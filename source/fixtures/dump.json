@@ -1,0 +1,939 @@
+[
+{
+    "model": "webapp.poll",
+    "pk": 3,
+    "fields": {
+        "question": "Poll Test-3",
+        "created_at": "2022-12-10T05:57:49.136Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 4,
+    "fields": {
+        "question": "Poll Test-4",
+        "created_at": "2022-12-10T05:57:55.122Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 5,
+    "fields": {
+        "question": "Poll Test-5 Updated",
+        "created_at": "2022-12-10T06:23:50.815Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 7,
+    "fields": {
+        "question": "Poll Test-6",
+        "created_at": "2022-12-10T11:04:03.676Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 8,
+    "fields": {
+        "question": "Poll Test-7",
+        "created_at": "2022-12-10T11:04:10.773Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 9,
+    "fields": {
+        "question": "Poll Test-8",
+        "created_at": "2022-12-10T11:04:15.311Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 10,
+    "fields": {
+        "question": "Poll Test-9",
+        "created_at": "2022-12-10T11:04:19.029Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 11,
+    "fields": {
+        "question": "Poll Test-10",
+        "created_at": "2022-12-10T11:04:22.183Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 12,
+    "fields": {
+        "question": "Poll Test-11",
+        "created_at": "2022-12-10T11:04:25.377Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 13,
+    "fields": {
+        "question": "Poll Test-12",
+        "created_at": "2022-12-10T11:04:29.517Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 14,
+    "fields": {
+        "question": "Poll Test-13",
+        "created_at": "2022-12-10T11:04:33.336Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 15,
+    "fields": {
+        "question": "Poll Test-14",
+        "created_at": "2022-12-10T11:04:36.714Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 16,
+    "fields": {
+        "question": "Poll Test-15",
+        "created_at": "2022-12-10T11:04:40.130Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 18,
+    "fields": {
+        "question": "Poll Test-17",
+        "created_at": "2022-12-10T11:04:46.617Z"
+    }
+},
+{
+    "model": "webapp.poll",
+    "pk": 20,
+    "fields": {
+        "question": "Poll Test-19",
+        "created_at": "2022-12-10T11:04:52.865Z"
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 3,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 3
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 5,
+    "fields": {
+        "variant": "Choise Test-5 Updated",
+        "poll": 5
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 8,
+    "fields": {
+        "variant": "Create Choice-3",
+        "poll": 3
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 9,
+    "fields": {
+        "variant": "Choise Test-4",
+        "poll": 3
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 10,
+    "fields": {
+        "variant": "Choise Test-5",
+        "poll": 3
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 11,
+    "fields": {
+        "variant": "Choise Test-6",
+        "poll": 3
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 12,
+    "fields": {
+        "variant": "Choise Test-7",
+        "poll": 3
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 13,
+    "fields": {
+        "variant": "Choise Test-8",
+        "poll": 3
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 15,
+    "fields": {
+        "variant": "Choise Test-1",
+        "poll": 4
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 16,
+    "fields": {
+        "variant": "Choise Test-2",
+        "poll": 4
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 17,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 4
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 18,
+    "fields": {
+        "variant": "Choise Test-4",
+        "poll": 4
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 19,
+    "fields": {
+        "variant": "Choise Test-5",
+        "poll": 4
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 20,
+    "fields": {
+        "variant": "Choise Test-6",
+        "poll": 4
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 21,
+    "fields": {
+        "variant": "Choise Test-7",
+        "poll": 4
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 22,
+    "fields": {
+        "variant": "Choise Test-1",
+        "poll": 5
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 23,
+    "fields": {
+        "variant": "Choise Test-2",
+        "poll": 5
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 24,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 5
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 25,
+    "fields": {
+        "variant": "Choise Test-4",
+        "poll": 5
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 26,
+    "fields": {
+        "variant": "Choise Test-6",
+        "poll": 5
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 27,
+    "fields": {
+        "variant": "Choise Test-7",
+        "poll": 5
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 28,
+    "fields": {
+        "variant": "Choise Test-1",
+        "poll": 11
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 29,
+    "fields": {
+        "variant": "Choise Test-2",
+        "poll": 11
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 30,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 11
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 31,
+    "fields": {
+        "variant": "Choise Test-4",
+        "poll": 11
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 32,
+    "fields": {
+        "variant": "Choise Test-5",
+        "poll": 11
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 33,
+    "fields": {
+        "variant": "Choise Test-6",
+        "poll": 11
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 34,
+    "fields": {
+        "variant": "Choise Test-7",
+        "poll": 11
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 35,
+    "fields": {
+        "variant": "Choise Test-1",
+        "poll": 9
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 36,
+    "fields": {
+        "variant": "Choise Test-2",
+        "poll": 9
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 37,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 9
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 38,
+    "fields": {
+        "variant": "Choise Test-4",
+        "poll": 9
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 39,
+    "fields": {
+        "variant": "Choise Test-5",
+        "poll": 9
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 40,
+    "fields": {
+        "variant": "Choise Test-1",
+        "poll": 7
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 41,
+    "fields": {
+        "variant": "Choise Test-2",
+        "poll": 7
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 42,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 7
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 43,
+    "fields": {
+        "variant": "Choise Test-4",
+        "poll": 7
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 44,
+    "fields": {
+        "variant": "Choise Test-1",
+        "poll": 10
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 45,
+    "fields": {
+        "variant": "Choise Test-12",
+        "poll": 10
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 46,
+    "fields": {
+        "variant": "Choise Test-13",
+        "poll": 10
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 47,
+    "fields": {
+        "variant": "Choise Test-45",
+        "poll": 10
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 48,
+    "fields": {
+        "variant": "Choise Test-47",
+        "poll": 10
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 49,
+    "fields": {
+        "variant": "Choise Test-83",
+        "poll": 8
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 50,
+    "fields": {
+        "variant": "Choise Test-25",
+        "poll": 8
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 51,
+    "fields": {
+        "variant": "Choise Test-27",
+        "poll": 8
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 52,
+    "fields": {
+        "variant": "Choise Test-270",
+        "poll": 8
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 53,
+    "fields": {
+        "variant": "Choise Test-2705",
+        "poll": 8
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 54,
+    "fields": {
+        "variant": "Choise Test-78/9",
+        "poll": 16
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 55,
+    "fields": {
+        "variant": "Choise Test-3455",
+        "poll": 16
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 56,
+    "fields": {
+        "variant": "Choise Test-312",
+        "poll": 16
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 57,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 16
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 58,
+    "fields": {
+        "variant": "Choise Test-3444",
+        "poll": 16
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 59,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 14
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 60,
+    "fields": {
+        "variant": "Choise Test-7",
+        "poll": 14
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 61,
+    "fields": {
+        "variant": "Choise Test-73",
+        "poll": 14
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 62,
+    "fields": {
+        "variant": "Choise Test-733",
+        "poll": 14
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 63,
+    "fields": {
+        "variant": "Choise Test-7336",
+        "poll": 14
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 64,
+    "fields": {
+        "variant": "Choise Test-733666",
+        "poll": 14
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 65,
+    "fields": {
+        "variant": "Choise Test-3232",
+        "poll": 12
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 66,
+    "fields": {
+        "variant": "Choise Test-3",
+        "poll": 12
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 67,
+    "fields": {
+        "variant": "Choise Test-32",
+        "poll": 12
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 68,
+    "fields": {
+        "variant": "Choise Test-45",
+        "poll": 12
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 69,
+    "fields": {
+        "variant": "Choise Test-67",
+        "poll": 12
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 70,
+    "fields": {
+        "variant": "Choise Test-333",
+        "poll": 15
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 71,
+    "fields": {
+        "variant": "HttpResponseRedirect",
+        "poll": 15
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 72,
+    "fields": {
+        "variant": "Choise Test-3332",
+        "poll": 15
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 73,
+    "fields": {
+        "variant": "Choise Test-34",
+        "poll": 15
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 74,
+    "fields": {
+        "variant": "Choise Test-344",
+        "poll": 15
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 75,
+    "fields": {
+        "variant": "Choise Test-3332",
+        "poll": 13
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 76,
+    "fields": {
+        "variant": "Choise Test-3333332",
+        "poll": 13
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 77,
+    "fields": {
+        "variant": "Choise Test-355",
+        "poll": 13
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 78,
+    "fields": {
+        "variant": "Choise Test-388",
+        "poll": 13
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 79,
+    "fields": {
+        "variant": "Choise Test-387",
+        "poll": 13
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 80,
+    "fields": {
+        "variant": "Choise Test-33777",
+        "poll": 20
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 81,
+    "fields": {
+        "variant": "Choise Test-37777",
+        "poll": 20
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 82,
+    "fields": {
+        "variant": "Choise Test-3787245",
+        "poll": 20
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 83,
+    "fields": {
+        "variant": "Choise Test-87978978",
+        "poll": 20
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 84,
+    "fields": {
+        "variant": "Choise Test-45645645",
+        "poll": 20
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 85,
+    "fields": {
+        "variant": "Choise Test-78978978++++",
+        "poll": 18
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 86,
+    "fields": {
+        "variant": "Choise Test-77477+++",
+        "poll": 18
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 87,
+    "fields": {
+        "variant": "Choise Test-77777+++",
+        "poll": 18
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 88,
+    "fields": {
+        "variant": "Choise Test-12345+++",
+        "poll": 18
+    }
+},
+{
+    "model": "webapp.choice",
+    "pk": 89,
+    "fields": {
+        "variant": "Choise Test-4527+++",
+        "poll": 18
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 52,
+    "fields": {
+        "question": 20,
+        "created_at": "2022-12-10T11:24:35.124Z",
+        "variant": 82
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 53,
+    "fields": {
+        "question": 16,
+        "created_at": "2022-12-10T11:24:38.203Z",
+        "variant": 57
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 54,
+    "fields": {
+        "question": 14,
+        "created_at": "2022-12-10T11:24:41.393Z",
+        "variant": 63
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 55,
+    "fields": {
+        "question": 15,
+        "created_at": "2022-12-10T11:24:44.007Z",
+        "variant": 71
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 56,
+    "fields": {
+        "question": 18,
+        "created_at": "2022-12-10T11:24:46.811Z",
+        "variant": 87
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 57,
+    "fields": {
+        "question": 13,
+        "created_at": "2022-12-10T11:25:07.560Z",
+        "variant": 76
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 58,
+    "fields": {
+        "question": 11,
+        "created_at": "2022-12-10T11:25:09.821Z",
+        "variant": 32
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 59,
+    "fields": {
+        "question": 9,
+        "created_at": "2022-12-10T11:25:12.236Z",
+        "variant": 36
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 60,
+    "fields": {
+        "question": 12,
+        "created_at": "2022-12-10T11:25:14.709Z",
+        "variant": 68
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 61,
+    "fields": {
+        "question": 10,
+        "created_at": "2022-12-10T11:25:17.023Z",
+        "variant": 45
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 62,
+    "fields": {
+        "question": 8,
+        "created_at": "2022-12-10T11:25:32.275Z",
+        "variant": 52
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 63,
+    "fields": {
+        "question": 5,
+        "created_at": "2022-12-10T11:25:34.657Z",
+        "variant": 5
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 64,
+    "fields": {
+        "question": 3,
+        "created_at": "2022-12-10T11:25:36.894Z",
+        "variant": 9
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 65,
+    "fields": {
+        "question": 4,
+        "created_at": "2022-12-10T11:25:38.918Z",
+        "variant": 18
+    }
+},
+{
+    "model": "webapp.answer",
+    "pk": 66,
+    "fields": {
+        "question": 7,
+        "created_at": "2022-12-10T11:25:41.220Z",
+        "variant": 42
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$trkbln8bHEgz8G7H64b63m$X8xT3KAMlQPzaxaTJsLAC2p4Q1uprLQmwz6YoGDQrEA=",
+        "last_login": "2022-12-10T07:39:40.951Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-12-10T05:38:43.654Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
