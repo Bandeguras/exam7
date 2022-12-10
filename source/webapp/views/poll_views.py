@@ -1,7 +1,7 @@
 from django.urls import reverse
 
 from webapp.models import Poll
-from django.views.generic import ListView, DetailView, CreateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from webapp.form import PollForm
 # Create your views here.
 
@@ -25,3 +25,13 @@ class PollCreate(CreateView):
 
     def get_success_url(self):
         return reverse('poll_index')
+
+
+class PollUpdate(UpdateView):
+    template_name = 'poll/poll_update.html'
+    context_object_name = 'polls'
+    model = Poll
+    form_class = PollForm
+
+    def get_success_url(self):
+        return reverse('poll', kwargs={'pk': self.object.pk})
